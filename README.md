@@ -1,7 +1,7 @@
 # Finance_Data_Analysis_Project
 
 ## Project Overview
-This project demonstrates an end-to-end approach to financial data analysis, utilizing SQL, Python, Power BI, and Excel to drive actionable business insights and support financial decision-making. Key tasks include data extraction, cleaning, modeling, KPI development, and building interactive dashboards for enhanced reporting.
+This project demonstrates an end-to-end approach to financial data analysis, utilizing SQL, Python, Power BI to drive actionable business insights and support financial decision-making. Key tasks include data extraction, cleaning, modeling, KPI development, and building interactive dashboards for enhanced reporting.
 ## Objectives
 Clean and model financial data for high reliability.
 
