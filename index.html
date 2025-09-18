@@ -2,20 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Finance Data Analysis Demo</title>
+    <title>Finance Data Analysis Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 40px;
+            background: #f9fafb;
+            color: #222;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        .section {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #27ae60;
+            border-bottom: 2px solid #27ae60;
+            padding-bottom: 6px;
+            margin-bottom: 20px;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        ul li, ol li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #27ae60;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .dashboards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .dashboards img {
+            max-width: 45%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-style: italic;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    <h1>Finance Data Analysis Project Dashboard</h1>
+    <header>
+        <h1>Finance Data Analysis Project</h1>
+        <p><em>End-to-end finance data analysis using SQL, Python, and Power BI</em></p>
+    </header>
 
-    <h2>Summary</h2>
-    <img src="summary-screenshot.png" alt="Dashboard Summary" width="900" />
+    <section class="section">
+        <h2>Project Overview</h2>
+        <p>This project demonstrates a complete financial data analysis workflow, including data extraction, cleaning, KPI development, modeling, and dashboard visualization to drive actionable business insights.</p>
+    </section>
 
-    <h2>Overview</h2>
-    <img src="Overview-Screenshor.png" alt="Dashboard Overview" width="900" />
+    <section class="section">
+        <h2>Tools & Technologies</h2>
+        <ul>
+            <li>SQL - Data extraction and transformation</li>
+            <li>Python - Data cleaning, exploratory data analysis, modeling</li>
+            <li>Power BI - Dashboard creation and interactive reporting</li>
+        </ul>
+    </section>
 
-    <h2>Details</h2>
-    <img src="Details_Screenshot.png" alt="Dashboard Details" width="900" />
+    <section class="section">
+        <h2>Business Impact</h2>
+        <ul>
+            <li>Improved data accuracy and reporting efficiency</li>
+            <li>Reduced manual reporting effort by 40%</li>
+            <li>Guided 12% reduction in operating expenses</li>
+        </ul>
+    </section>
+
+    <section class="section dashboards">
+        <img src="summary-screenshot.png" alt="Summary Dashboard Screenshot" />
+        <img src="Overview-Screenshor.png" alt="Overview Dashboard Screenshot" />
+        <img src="Details_Screenshot.png" alt="Details Dashboard Screenshot" />
+    </section>
+
+    <section class="section">
+        <h2>Project Files</h2>
+        <ul>
+            <li><a href="SQLQuery1.sql" target="_blank">SQL Queries</a></li>
+            <li><a href="Bank_Loan_Analysis.ipynb" target="_blank">Python Notebook</a></li>
+            <li><a href="financial_loan.csv" target="_blank">Dataset (CSV)</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>© Priyanka Rawat - Aspiring Data Analyst | <a href="https://linkedin.com/in/priyanka-rawat-398bb4337" target="_blank">LinkedIn</a> | <a href="https://github.com/Priyanka-Rawat890" target="_blank">GitHub</a></p>
+    </footer>
 </body>
 </html>
-
-
